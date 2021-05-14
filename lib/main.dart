@@ -3,7 +3,7 @@ import 'package:flutter_redux/flutter_redux.dart';
 import 'package:redux/redux.dart';
 import './redux/app_state.dart';
 import './redux/store.dart';
-import './redux/colort/color_action.dart';
+import './redux/color/color_action.dart';
 
 void main() async {
   final Store<AppState> store = await createStore();

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
-import './colort/color_state.dart';
+import './color/color_state.dart';
 
 @immutable
 class AppState {

@@ -1,7 +1,7 @@
-import 'package:color_sample/redux/colort/color_state.dart';
 import 'package:redux/redux.dart';
 import 'package:flutter/material.dart';
 import './color_action.dart';
+import './color_state.dart';
 
 final colorReducer = combineReducers<ColorStaet>([
   TypedReducer<ColorStaet, SetColorAction>(_setColorActionReducer),
